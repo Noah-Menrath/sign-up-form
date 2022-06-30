@@ -82,17 +82,21 @@ body {
     border: 1px solid black;
     width: 100%;
     height: 100%;
-    overflow-x: hidden
+    overflow-x: hidden;
+    display: flex;
 }
 .left-panel {
     border: 1px solid red;
     overflow-x: hidden;
     width: 675px;
+    height: 984px;
+    overflow-x: hidden;
 }
 
 .left-panel img {
     width: 675px;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 .logo {
@@ -102,7 +106,7 @@ body {
     float: left;
     top: 550px;
     justify-content: center;
-    width: 674px;
+    width: 675px;
     height: 100px;
     font-size: 3.4rem;
     align-items: center;
@@ -119,4 +123,35 @@ body {
     float: left;
     bottom: 5px;
     font-size: 0.8rem;
+}
+
+.top-right-panel {
+    border: 1px solid teal;
+    display: flex;
+    height: 350px;
+    width: 1153px;
+    background-color: #babbbd
+}
+
+.form-panel {
+    display: flex;
+    border: 1px solid brown;
+    position:absolute;
+    float: left;
+    bottom: 352px;
+    right: 0px;
+    top: 352px;
+    left: 678px;
+}
+
+.bottom-right-panel {
+    border: 1px solid teal;
+    display: flex;
+    height: 350px;
+    width: 1153px;
+    background-color: #babbbd;
+    position:absolute;
+    float: left;
+    bottom: 0px;
+    right: 0px;
 }
