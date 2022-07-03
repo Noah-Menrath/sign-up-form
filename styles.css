@@ -79,14 +79,14 @@ label {
 
 
 body {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100%;
     height: 100%;
     overflow-x: hidden;
     display: flex;
 }
 .left-panel {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     overflow-x: hidden;
     width: 675px;
     height: 984px;
@@ -126,32 +126,121 @@ body {
 }
 
 .top-right-panel {
-    border: 1px solid teal;
+    /* border: 1px solid teal; */
     display: flex;
     height: 350px;
     width: 1153px;
-    background-color: #babbbd
+    background-color: #dad6d62f;
 }
 
 .form-panel {
     display: flex;
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
     position:absolute;
     float: left;
     bottom: 352px;
     right: 0px;
     top: 352px;
     left: 678px;
+    border: none
+    
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid brown; */
+    position:absolute;
+    float: left;
+    bottom: 352px;
+    right: 0px;
+    top: 352px;
+    left: 678px;
+    row-gap: 25px;
+    font-size: 1.25rem;
+    justify-content: center;
+    padding-left: 25px;
+    border: none;
+    
+}
+
+/* input,
+label {
+    display: block;
+    float: left;
+    column-gap: 25px;
+} */
+
+input {
+    display: flex;
+    float: left;
+    padding: 5px;
+    font-size: 1.115rem;
+    margin-right: 75px;
+    /* border: 1px solid red */
+
+}
+
+
+label {
+    display: block;
+    /* border:1px solid purple */
+}
 .bottom-right-panel {
-    border: 1px solid teal;
+    /* border: 1px solid teal; */
     display: flex;
     height: 350px;
     width: 1153px;
-    background-color: #babbbd;
+    background-color: #dad6d62f;
     position:absolute;
     float: left;
     bottom: 0px;
     right: 0px;
+    left:675px;
+}
+
+
+#lastName {
+    position: relative;
+    top: -25px;
+}
+
+label[for="lastName"] {
+    position: relative;
+    top: -25px;
+    
+}
+
+#phone_number {
+    position: relative;
+    top: -25px
+}
+
+label[for="phone_number"] {
+    position: relative;
+    top: -25px;
+}
+
+#user_password_check {
+    position: relative;
+    top: -25px;
+}
+
+label[for="user_password_check"] {
+    position: relative;
+    top: -25px;
+}
+
+fieldset {
+    border: none;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(202, 49, 29);
+    color: white;
+    border-radius: 8px;
+    z-index: -1;
 }
