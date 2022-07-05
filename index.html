@@ -13,9 +13,11 @@
         <div class="logo">Paradise Awaits</div>
         <div class="credit">Photo by NASA</div>
     </div>
-    <div class="top-right-panel"></div>
+    <div class="top-right-panel">
+        <div class="description">Have you ever wanted to move away from home?<br><br>You have?<br><br>How about really far away from home?<br><br>If that's a yes, then have you thought about helping humanity make Mars habitable?<br><br>It's really simple really, sign up below, and you get to be our test subj--, *our hero who can save humanity.</div>
+    </div>
     <div class="form-panel"></div>
-        <form action="https://example.com" method="post">
+        <form action="#" method="post">
             <fieldset>
                 <label for="firstName">First Name</label>
                 <input type="text" id="firstName" placeholder="Octavia" name="first-name" minlength="1" required>
@@ -26,16 +28,16 @@
                 <label for="user_email">Email Address</label>
                 <input type="email" id="user_email" name="email" placeholder="you@example.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$" required>
                 <label for="phone_number">Phone Number</label>
-                <input type="tel" id="phone_number" name="phone-number" placeholder="423-498-9824" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <input type="tel" id="phone_number" name="phone-number" placeholder="10-numbers required" minlength="10" maxlength="10" required>
             </fieldset>
             <fieldset>
                 <label for="user_password">Password</label>
-                <input type="password" id="user_password" name="password" minlength="6" maxlength="140" placeholder="8 characters minimum" required>
+                <input type="password" id="user_password" name="password" minlength="6" maxlength="140" placeholder="6 characters minimum" required>
                 <label for="user_password_check">Confirm Password</label>
                 <input type="password" id="user_password_check" name="password-check" minlength="6" maxlength="140" placeholder="Re-type password" required>
             </fieldset>
             <fieldset>
-                <button class="submit">Submit</button>
+                <button class="submit">Create Account</button>
                 <!-- <button type="submit">Submit</button> -->
                 <!-- <input type="submit" value="Send Request"> -->
                 <div class="account_question">Already have an account?<a href="#">Log in</a></div>
